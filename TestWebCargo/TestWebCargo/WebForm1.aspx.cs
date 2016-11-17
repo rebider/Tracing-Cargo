@@ -12,6 +12,8 @@ namespace TestWebCargo
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("Hello 黄福霖！！"+"</br>");
+            Response.Write("Hello 黄福霖！！" + "</br>");
+            Response.Write("Hello 黄福霖！！" + "</br>");
             Response.Write("<script language=javascript>alert('Hello 黄福霖！！');</script>");
         }
     }
